@@ -24,10 +24,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Daniel Gao"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  pronouns         : # example: "he/his"  
+  bio              : ""
   location         : "China"
-  employer         : "Red Brick University"
+  employer         : "USTC"
   uri              : # URL
   email            : "danielccbb0530@gmail.com" 
 
