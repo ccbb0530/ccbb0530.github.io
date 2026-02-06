@@ -6,10 +6,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I was admitted to School of Gifted Young, University of Science and Technology of China in 2024. I will major in Mathematics from fall, 2025. Besides, my minor subject will be computer science in order to improve overall abilities.
+I was admitted to School of the Gifted Young, University of Science and Technology of China in 2024. I currently major in Mathematics, and also intend to minor in Computer Science for in-depth study into real-world applications.
 
 ## Information about the website
-This website will mainly include my personal information, thoughts and some resources. I hope these will be useful for you.
+This website mainly contains my personal information, thoughts & updates, along with some resources. I hope these will be useful for you.
 
 ## Contact information
 **Email**: gaopg@mail.ustc.edu.cn
