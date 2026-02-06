@@ -5,4 +5,4 @@ permalink: /experiences/
 author_profile: true
 ---
 
-Here is my personal academic experience, including ...
+Soon to be updated with my personal academic experiences.
