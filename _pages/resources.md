@@ -8,15 +8,33 @@ author_profile: true
 This page will mainly include academic resources, including some of the notes, homework answers and projects.<br>
 
 # Notes & Homework 
-## Calculus
-This part will include notes taken in Prof.Hu-Ting Wang's classes, and the professor retired in Spring, 2025. The notes cover all the content in the courses and some reviews for exams.<br>
-- **[Calculus I](https://notes.gaopg.com/Mathematics%20Analysis%201.pdf)**<br>
-- **[Calculus II](https://notes.gaopg.com/Mathematics%20Analysis%202.pdf)**<br>
-- **Calculus III**<br>
+## Mathematics Analysis
+This part will include notes taken in the Mathematics Analysis in the first three semesters. Mathematics Analysis I&II are courses taken by Prof. HuTing Wang who was retired in Spring, 2025. For Mathematics Analysis III, this is a course for students who shifted their major into Mathematics taught by Prof. Bin Xu(including students from the school of the gifted young). You will experience the most brilliant part in Mathematics Analysis, including but not limited to:
+- Arzela-Ascoli Theorem, Weierstrass Theorem
+- Basic Topology
+- Implicit Function Theorem, Inverse Function Theorem, Rank Theorem
+- Jordan measure, Jacobian change-of-variables formula
+  
+The notes cover all the content in the courses and some reviews for exams.<br>
+- **[Mathematics Analysis I](https://notes.gaopg.com/Mathematics%20Analysis%201.pdf)**<br>
+- **[Mathematics Analysis II](https://notes.gaopg.com/Mathematics%20Analysis%202.pdf)**<br>
+- **Mathematics Analysis III**<br>
 
-## Linear Algebra I 
-This note covers most of the important contents in Linear Algebra I.<br>
+## Linear Algebra
+The first note covers most of the important contents in Linear Algebra I which was taught by Prof. Falai Chen.<br> Most of the knowledge of linear algebra is put into Linear Algebra II taught by Prof. Hongjia Chen and we retrospect all the content taught in Linear Algebra I, including but not limited to:
+- Determinant
+- Matrix and Linear Space
+- Equivalence Relation & Normal form: equivalent matrices, similar matrices, congruent matrices
+- Jordan Normal Form
+- Euclid space, Unitary space
+- Bilinear function, quadratic form
+
+The linear algebra courses simultaneously consider both computation and proof. 
 - **[Linear Algebra I](https://notes.gaopg.com/Linear%20Algebra%201.pdf)**
+- **Linear Algebra II**
+
+## Probability Theory
+
 
 ## Fundamentals of Algebra 
 It was a three-credit course in Fall, 2024. But from Fall, 2025, it will become a two-credit course. The following two files cover the content in the course and the homework answers.<br>
@@ -29,9 +47,15 @@ The following files cover most of the projects done in freshman year. Most of th
 In this report, I focus on how students' personalities are related to their attachent relationships. I believe this will give students and their parents some advice about their everyday life to some extent.<br>
 - **[Psychology for university students - Report](https://ccbb0530.github.io/files/Psychology-report.docx)**
 
+## Social psychology
+I'm really interested in psychology so I took social psychology in Fall, 2025. Comparing to Psychology for university students, social psychology is an advanced course. We learnt more about how to understand people, how psychologists conduct experiments to explain the phenomenons. <br>
+For this class, I finished both a presentation and a course paper. I introduced to my classmates why people feel that time becomes faster as they grow older from different perspectives in the presentation. To do the course paper, I conducted a research on how "the outstanding student schema" affects the students mental health and thoughts. This research helps us have a better understanding on childhood education.<br>  
+- **[Social Psychology - Presentation]()**
+- **[Social Psychology - Report]()**
+
 ## "Science & Society" Seminar
-For every freshman student in USTC, this will be a compulsory course. In the course, students will do groupwork in order to finish a porject. My group chose to do a research on a video shared by famous Bilibili video-maker "毕导":<br>
+For every freshman student in USTC, this will be a compulsory course. In the course, students will do groupwork in order to finish a project. Our group chose to do a research on a video shared by famous Bilibili video-maker "毕导":<br>
 - [Bus-waiting paradox](https://www.bilibili.com/video/BV1PE421w7jL)<br>
 
-So we went deep into this phenomenon, and finished the report with the thesis below.<br>
+So we went deep into this phenomenon and tried to do some simulations, and finished the report with the thesis below.<br>
 - **[Bus waiting paradox - report](https://ccbb0530.github.io/files/buswaitingparadox.pdf)**
