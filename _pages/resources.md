@@ -10,17 +10,18 @@ This page will mainly include academic resources, including some of the notes, h
 # Notes & Homework 
 ## Calculus
 This part will include notes taken in Prof.Hu-Ting Wang's classes, and the professor retired in Spring, 2025. The notes cover all the content in the courses and some reviews for exams.<br>
-- **[Calculus I](https://ccbb0530.github.io/files/CalculusI.pdf)**<br>
-- **[Calculus II](https://ccbb0530.github.io/files/CalculusII.pdf)**<br>
+- **[Calculus I](https://notes.gaopg.com/Mathematics%20Analysis%201.pdf)**<br>
+- **[Calculus II](https://notes.gaopg.com/Mathematics%20Analysis%202.pdf)**<br>
+- **Calculus III**<br>
 
 ## Linear Algebra I 
 This note covers most of the important contents in Linear Algebra I.<br>
-- **[Linear Algebra I](https://ccbb0530.github.io/files/LinearAlgebraI.pdf)**
+- **[Linear Algebra I](https://notes.gaopg.com/Linear%20Algebra%201.pdf)**
 
 ## Fundamentals of Algebra 
 It was a three-credit course in Fall, 2024. But from Fall, 2025, it will become a two-credit course. The following two files cover the content in the course and the homework answers.<br>
-- **[Fundamentals of Algebra - Course](https://ccbb0530.github.io/files/Algebra1-course.pdf)**<br>
-- **[Fundamentals of Algebra - Homework](https://ccbb0530.github.io/files/Algebra1-homework.pdf)**<br>
+- **[Fundamentals of Algebra - Course](https://notes.gaopg.com/Algebra1-course.pdf)**<br>
+- **[Fundamentals of Algebra - Homework](https://notes.gaopg.com/AlgebraI-homework.pdf)**<br>
 
 # Projects
 The following files cover most of the projects done in freshman year. Most of them are thesis and report.
