@@ -34,7 +34,16 @@ The linear algebra courses simultaneously consider both computation and proof.
 - **Linear Algebra II**
 
 ## Probability Theory
-
+I took this course in Fall, 2025 which was taught by Prof. DangZheng Liu. Comparing to undergraduate probability theory taught by other brother universities, our probability theory includes more contents and considers problems on advanced probability theory(Real Analysis). Our probability theory mainly contains:
+- Probability space and independence
+- Discrete random variable, Continuous random variable
+- Normal Distribution
+- Probability methods, Random walk
+- Simple Abstract integral, Convergence
+- Komolgorov Strong Law of Large Numbers, Central Limit Theorem, Moment 
+Luckily, I got 100 out of 100 in this probability theory course. The course provides me with an outline of the world of probability. The following files are the course notes and solutions to almost all the exercises.<br>
+- **[Probability Theory - Course]()**<br>
+- **[Probability Theory - Homework]()**<br>
 
 ## Fundamentals of Algebra 
 It was a three-credit course in Fall, 2024. But from Fall, 2025, it will become a two-credit course. The following two files cover the content in the course and the homework answers.<br>
@@ -59,3 +68,7 @@ For every freshman student in USTC, this will be a compulsory course. In the cou
 
 So we went deep into this phenomenon and tried to do some simulations, and finished the report with the thesis below.<br>
 - **[Bus waiting paradox - report](https://ccbb0530.github.io/files/buswaitingparadox.pdf)**
+
+## Electromagnetism thesis contest
+In the June of 2025, I took part in the Electromagnetism thesis contest. I was chosen to do a report in my class but failed to attend the school's electromagnetism thesis contest. I read a lot of papers about resistor grid and electric circuit during that time and did a research on these topics. I showed a way to understand inequalities and gave an inequality on the value of resistor grid.
+- **[Electromagnetism thesis contest]()**
