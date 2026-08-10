@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/26-fall-teaching
 venue: "USTC, probability theory course"
-date: 2026-09
+date: 2026-09-01
 location: "China, Hefei"
 ---
 
