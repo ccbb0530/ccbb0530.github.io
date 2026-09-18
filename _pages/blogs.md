@@ -1,8 +1,10 @@
 ---
-layout: archive
-title: "Blogs and Interests"
+layout: page
+title: Blogs
 permalink: /blogs/
-author_profile: true
+description: Personal thoughts and interests.
+nav: true
+nav_order: 4
 ---
 
 This page will mainly include blogs and interests.

@@ -1,43 +1,177 @@
 ---
+# Keep the theme imports; site-specific typography follows below.
 ---
 
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
+@charset "utf-8";
 
-@import
-    "vendor/breakpoint/breakpoint",
+@use "sass:math";
+@use "sass:string";
+@use "variables" with (
+  $max-content-width: {{site.max_width | default: "930px"}}
+);
+@use "themes";
+@use "layout";
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+@use "tabs";
+@use "teachings";
+@use "typograms";
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+// A restrained academic palette, with readable contrast in both themes.
+:root {
+  --global-text-color: #34383d;
+  --global-text-color-light: #626870;
+  --global-theme-color: #a12835;
+  --global-hover-color: #7e1d28;
+}
 
-    "include/mixins",
-    "vendor/susy/susy",
+html[data-theme="dark"] {
+  --global-text-color: #e3e5e8;
+  --global-text-color-light: #b5bbc3;
+  --global-theme-color: #f2a1a9;
+  --global-hover-color: #ffc5cb;
+}
 
-    "layout/reset",
-    "layout/base",
+// Size expresses hierarchy; weight and spacing keep it clear without big jumps.
+body {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
+.post {
+  .post-title {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.025em;
+    margin-bottom: 0.625rem;
+  }
 
-    "layout/forms",
+  .post-header {
+    margin-bottom: 1.75rem;
+  }
 
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
+  .desc,
+  .post-description {
+    color: var(--global-text-color-light);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
 
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-;
+  article {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 500;
+      line-height: 1.35;
+      margin-top: 1.75rem;
+      margin-bottom: 0.625rem;
+    }
+
+    h2 {
+      font-size: 1.375rem;
+    }
+
+    h3 {
+      font-size: 1.125rem;
+    }
+
+    h4,
+    h5,
+    h6 {
+      font-size: 1rem;
+    }
+
+    > h2:first-child {
+      margin-top: 0;
+    }
+
+    p,
+    ul,
+    ol {
+      margin-bottom: 1rem;
+    }
+
+    li + li {
+      margin-top: 0.2rem;
+    }
+
+    strong,
+    b {
+      font-weight: 600;
+    }
+
+    a {
+      text-underline-offset: 0.18em;
+    }
+  }
+}
+
+.profile .more-info {
+  font-family: inherit;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin-top: 0.75rem;
+
+  p {
+    display: block;
+    color: var(--global-text-color-light);
+    margin: 0;
+  }
+}
+
+.navbar {
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+
+.social {
+  margin-top: 1.5rem;
+
+  .contact-icons {
+    font-size: 2rem;
+    line-height: 1.5;
+
+    a {
+      display: inline-block;
+      margin: 0 0.3rem;
+    }
+  }
+
+  .contact-note {
+    font-size: 0.875rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.375rem;
+  }
+}
+
+footer.fixed-bottom,
+footer.sticky-bottom {
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .post .post-title {
+    font-size: 1.875rem;
+  }
+
+  .profile {
+    float: none !important;
+    max-width: 15rem;
+    margin: 0 auto 1.75rem !important;
+  }
+}

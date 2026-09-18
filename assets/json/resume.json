@@ -1,0 +1,23 @@
+{
+  "basics": {
+    "name": "Peigan Gao",
+    "label": "Mathematics student at USTC",
+    "email": "gaopg@mail.ustc.edu.cn",
+    "url": "https://ccbb0530.github.io",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "ccbb0530",
+        "url": "https://github.com/ccbb0530"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "University of Science and Technology of China",
+      "area": "Mathematics",
+      "startDate": "2024",
+      "courses": ["Hua Loo-Keng Talent Program in Mathematics"]
+    }
+  ]
+}
