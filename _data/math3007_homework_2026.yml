@@ -1,0 +1,48 @@
+# One homework submission and one answer entry per group.
+# Exercise sections are derived from the lectures in these weeks.
+# Add an answers URL when the weekly solution file is available.
+- weeks: [1, 2]
+  homework: 1
+  answers:
+- weeks: [3]
+  homework: 2
+  answers:
+- weeks: [4]
+  homework: 3
+  answers:
+- weeks: [5]
+  homework: 4
+  answers:
+- weeks: [6]
+  homework: 5
+  answers:
+- weeks: [7]
+  homework: 6
+  answers:
+- weeks: [8]
+  homework: 7
+  answers:
+- weeks: [9]
+  homework: 8
+  answers:
+- weeks: [10]
+  homework: 9
+  answers:
+- weeks: [11]
+  homework: 10
+  answers:
+- weeks: [12]
+  homework: 11
+  answers:
+- weeks: [13]
+  homework: 12
+  answers:
+- weeks: [14]
+  homework: 13
+  answers:
+- weeks: [15]
+  homework: 14
+  note: "Review exercises to be announced."
+  answers:
+- weeks: [17]
+  homework:
