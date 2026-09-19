@@ -12,6 +12,8 @@ Personal website built with [al-folio](https://github.com/alshedivat/al-folio).
 Main pages live in `_pages/`. The Resources index reads the individual topic
 pages in `_pages/resources/`. Teaching materials live in `_teachings/`.
 Site settings are in `_config.yml`, and typography is in `assets/css/main.scss`.
+The MATH3007.01 calendar is in `_data/math3007_2026.yml`; see
+[the course schedule guide](docs/MATH3007-SCHEDULE.md) for dates and material links.
 
 See [the content migration guide](docs/MIGRATION.md) and
 [typography notes](docs/DESIGN.md) for details.

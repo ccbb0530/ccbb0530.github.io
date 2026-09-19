@@ -1,0 +1,420 @@
+# MATH3007.01, Fall 2026. Dates use Asia/Shanghai (UTC+8).
+# Reading pages are printed textbook pages, not PDF viewer page numbers.
+- date: "2026-08-31"
+  week: 1
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 1"
+  title: "Introduction to probability"
+  title_zh: "概率论简介"
+  reading: "Chapter 0"
+  section: "0"
+  page_start: 1
+  page_end: 7
+- date: "2026-09-03"
+  week: 1
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "lecture"
+  label: "Lecture 2"
+  title: "Probability spaces"
+  title_zh: "概率空间"
+  reading: "§1.1"
+  section: "1.1"
+  page_start: 8
+  page_end: 13
+- date: "2026-09-07"
+  week: 2
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 3"
+  title: "Conditional probability and independence"
+  title_zh: "条件概率与独立性"
+  reading: "§1.2"
+  section: "1.2"
+  page_start: 14
+  page_end: 18
+- date: "2026-09-10"
+  week: 2
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "lecture"
+  label: "Lecture 4"
+  title: "Probability models"
+  title_zh: "概率模型"
+  reading: "§1.3"
+  section: "1.3"
+  page_start: 19
+  page_end: 23
+- date: "2026-09-12"
+  week: 2
+  weekday: "Saturday"
+  time: "15:55–18:20"
+  kind: "recitation"
+  label: "Saturday recitation 1"
+  title: "Mathematical analysis and measure-theory review"
+  title_zh: "预备知识：数学分析与实分析"
+  material: "/files/teaching/math3007-2026/recitation-2026-09-12.pdf"
+  material_label: "September 12 handout (PDF)"
+- date: "2026-09-14"
+  week: 3
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 5"
+  title: "Random variables and distribution functions"
+  title_zh: "随机变量与分布函数"
+  reading: "§1.4"
+  section: "1.4"
+  page_start: 24
+  page_end: 28
+- date: "2026-09-17"
+  week: 3
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "lecture"
+  label: "Lecture 6"
+  title: "Random vectors"
+  title_zh: "随机向量"
+  reading: "§1.5"
+  section: "1.5"
+  page_start: 29
+  page_end: 33
+- date: "2026-09-21"
+  week: 4
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 7"
+  title: "Independence of random variables"
+  title_zh: "随机变量独立性"
+  reading: "§1.6"
+  section: "1.6"
+  page_start: 34
+  page_end: 37
+- date: "2026-09-24"
+  week: 4
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "lecture"
+  label: "Lecture 8"
+  title: "Common discrete distributions"
+  title_zh: "典型离散分布"
+  reading: "§2.1"
+  section: "2.1"
+  page_start: 40
+  page_end: 43
+- date: "2026-09-26"
+  week: 4
+  weekday: "Saturday"
+  time: "15:55–18:20"
+  kind: "recitation"
+  label: "Saturday recitation 2"
+  title: "Problem solving and discussion"
+  title_zh: "习题讲解与答疑"
+  note: "Topics and materials to be announced."
+- date: "2026-09-28"
+  week: 5
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 9"
+  title: "Expectation"
+  title_zh: "数学期望"
+  reading: "§2.2"
+  section: "2.2"
+  page_start: 44
+  page_end: 49
+- date: "2026-10-01"
+  week: 5
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "break"
+  label: "No class"
+  title: "Scheduled break"
+  title_zh: "停课"
+  note: "Thursday is excluded in week 5."
+- date: "2026-10-05"
+  week: 6
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "break"
+  label: "No class"
+  title: "Scheduled break"
+  title_zh: "停课"
+  note: "Monday is excluded in week 6."
+- date: "2026-10-08"
+  week: 6
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "lecture"
+  label: "Lecture 10"
+  title: "The probabilistic method"
+  title_zh: "概率方法"
+  reading: "§2.3"
+  section: "2.3"
+  page_start: 50
+  page_end: 54
+- date: "2026-10-12"
+  week: 7
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 11"
+  title: "Covariance and conditional expectation"
+  title_zh: "协方差与条件期望"
+  reading: "§2.4"
+  section: "2.4"
+  page_start: 55
+  page_end: 60
+- date: "2026-10-15"
+  week: 7
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "lecture"
+  label: "Lecture 12"
+  title: "Random walks"
+  title_zh: "随机游走"
+  reading: "§2.5"
+  section: "2.5"
+  page_start: 61
+  page_end: 66
+- date: "2026-10-17"
+  week: 7
+  weekday: "Saturday"
+  time: "15:55–18:20"
+  kind: "recitation"
+  label: "Saturday recitation 3"
+  title: "Problem solving and discussion"
+  title_zh: "习题讲解与答疑"
+  note: "Topics and materials to be announced."
+- date: "2026-10-19"
+  week: 8
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 13"
+  title: "Probability generating functions"
+  title_zh: "概率母函数"
+  reading: "§2.6"
+  section: "2.6"
+  page_start: 67
+  page_end: 71
+- date: "2026-10-22"
+  week: 8
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "lecture"
+  label: "Lecture 14"
+  title: "Common probability densities"
+  title_zh: "典型密度函数"
+  reading: "§3.1"
+  section: "3.1"
+  page_start: 75
+  page_end: 78
+- date: "2026-10-26"
+  week: 9
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 15"
+  title: "Expectation and conditional expectation"
+  title_zh: "期望与条件期望"
+  reading: "§3.2"
+  section: "3.2"
+  page_start: 79
+  page_end: 84
+- date: "2026-10-29"
+  week: 9
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "lecture"
+  label: "Lecture 16"
+  title: "Multivariate normal distributions"
+  title_zh: "多元正态分布"
+  reading: "§3.3"
+  section: "3.3"
+  page_start: 85
+  page_end: 91
+- date: "2026-10-31"
+  week: 9
+  weekday: "Saturday"
+  time: "15:55–18:20"
+  kind: "recitation"
+  label: "Saturday recitation 4"
+  title: "Problem solving and discussion"
+  title_zh: "习题讲解与答疑"
+  note: "Topics and materials to be announced."
+- date: "2026-11-02"
+  week: 10
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 17"
+  title: "Wick's theorem"
+  title_zh: "Wick 定理"
+  reading: "§3.4"
+  section: "3.4"
+  page_start: 92
+  page_end: 94
+- date: "2026-11-05"
+  week: 10
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "lecture"
+  label: "Lecture 18"
+  title: "Integration and expectation"
+  title_zh: "积分与期望"
+  reading: "§4.1"
+  section: "4.1"
+  page_start: 98
+  page_end: 102
+- date: "2026-11-09"
+  week: 11
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 19"
+  title: "Four modes of convergence"
+  title_zh: "四种收敛"
+  reading: "§4.2"
+  section: "4.2"
+  page_start: 103
+  page_end: 108
+- date: "2026-11-12"
+  week: 11
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "lecture"
+  label: "Lecture 20"
+  title: "The Borel–Cantelli lemmas"
+  title_zh: "Borel-Cantelli 引理"
+  reading: "§4.3"
+  section: "4.3"
+  page_start: 109
+  page_end: 114
+- date: "2026-11-14"
+  week: 11
+  weekday: "Saturday"
+  time: "15:55–18:20"
+  kind: "recitation"
+  label: "Saturday recitation 5"
+  title: "Problem solving and discussion"
+  title_zh: "习题讲解与答疑"
+  note: "Topics and materials to be announced."
+- date: "2026-11-16"
+  week: 12
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 21"
+  title: "Weak and strong laws of large numbers"
+  title_zh: "弱与强大数定律"
+  reading: "§4.4"
+  section: "4.4"
+  page_start: 115
+  page_end: 120
+- date: "2026-11-19"
+  week: 12
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "lecture"
+  label: "Lecture 22"
+  title: "Characteristic functions"
+  title_zh: "特征函数"
+  reading: "§5.1"
+  section: "5.1"
+  page_start: 124
+  page_end: 129
+- date: "2026-11-23"
+  week: 13
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 23"
+  title: "Inversion and continuity theorems"
+  title_zh: "反演与连续性定理"
+  reading: "§5.2"
+  section: "5.2"
+  page_start: 130
+  page_end: 133
+- date: "2026-11-26"
+  week: 13
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "lecture"
+  label: "Lecture 24"
+  title: "The Lindeberg–Feller central limit theorem"
+  title_zh: "Lindeberg-Feller CLT"
+  reading: "§5.3"
+  section: "5.3"
+  page_start: 134
+  page_end: 140
+- date: "2026-11-28"
+  week: 13
+  weekday: "Saturday"
+  time: "15:55–18:20"
+  kind: "recitation"
+  label: "Saturday recitation 6"
+  title: "Problem solving and discussion"
+  title_zh: "习题讲解与答疑"
+  note: "Topics and materials to be announced."
+- date: "2026-11-30"
+  week: 14
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "lecture"
+  label: "Lecture 25"
+  title: "The method of moments and replacement techniques"
+  title_zh: "矩方法与替换技巧"
+  reading: "§5.4"
+  section: "5.4"
+  page_start: 141
+  page_end: 147
+- date: "2026-12-03"
+  week: 14
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "review"
+  label: "In-class recitation 1"
+  title: "Recitation and problem solving"
+  title_zh: "习题讲解与答疑"
+  note: "Regular class time; topics to be announced."
+- date: "2026-12-07"
+  week: 15
+  weekday: "Monday"
+  time: "14:00–15:35"
+  kind: "review"
+  label: "In-class recitation 2"
+  title: "Recitation and problem solving"
+  title_zh: "习题讲解与答疑"
+  note: "Regular class time; topics to be announced."
+- date: "2026-12-10"
+  week: 15
+  weekday: "Thursday"
+  time: "09:45–11:20"
+  kind: "review"
+  label: "In-class recitation 3"
+  title: "Recitation and problem solving"
+  title_zh: "习题讲解与答疑"
+  note: "Regular class time; topics to be announced."
+- date: "2026-12-12"
+  week: 15
+  weekday: "Saturday"
+  time: "15:55–18:20"
+  kind: "recitation"
+  label: "Saturday recitation 7"
+  title: "Problem solving and discussion"
+  title_zh: "习题讲解与答疑"
+  note: "Topics and materials to be announced."
+- date: "2026-12-26"
+  week: 17
+  weekday: "Saturday"
+  time: "15:55–18:20"
+  kind: "recitation"
+  label: "Saturday recitation 8"
+  title: "Problem solving and discussion"
+  title_zh: "习题讲解与答疑"
+  note: "Topics and materials to be announced."

@@ -18,5 +18,5 @@ nav_order: 2
 
 **Lecturer:** {{ course.instructor }}
 
-[Course details, references, and materials →]({{ course.url | relative_url }})
+[Course details and materials →]({{ course.url | relative_url }}) · [Schedule →]({{ course.url | relative_url }}#schedule)
 {% endfor %}

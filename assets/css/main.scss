@@ -160,6 +160,233 @@ footer.sticky-bottom {
   line-height: 1.6;
 }
 
+// Course schedules use the same compact type scale as the rest of the site.
+.course-jump-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.course-logistics {
+  display: grid;
+  grid-template-columns: 10.5rem 1fr;
+  gap: 0.4rem 1rem;
+  margin-bottom: 1rem;
+
+  dt {
+    font-weight: 500;
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
+.course-recitation-dates a {
+  white-space: nowrap;
+}
+
+.course-assessment {
+  width: 100%;
+  max-width: 32rem;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  th:last-child,
+  td:last-child {
+    text-align: right;
+  }
+}
+
+#course-information,
+#assessment,
+#schedule,
+#course-materials,
+.course-schedule tr {
+  scroll-margin-top: 5rem;
+}
+
+.course-schedule {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0 2rem;
+
+  caption {
+    caption-side: top;
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    text-align: left;
+    padding: 0 0 0.75rem;
+  }
+
+  th,
+  td {
+    padding: 1rem 0.75rem;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  thead th {
+    font-weight: 600;
+    background: var(--global-code-bg-color);
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .schedule-week {
+    width: 6%;
+    color: var(--global-text-color-light);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .schedule-week-prefix {
+    display: none;
+  }
+
+  .schedule-date {
+    width: 19%;
+    white-space: nowrap;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .schedule-topic {
+    width: 46%;
+  }
+
+  .schedule-materials {
+    width: 29%;
+  }
+
+  .schedule-label,
+  .schedule-detail {
+    display: block;
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .schedule-label {
+    margin-bottom: 0.3rem;
+  }
+
+  .schedule-detail {
+    margin-top: 0.25rem;
+  }
+
+  .schedule-recitation,
+  .schedule-review {
+    background: color-mix(in srgb, var(--global-theme-color) 5%, var(--global-bg-color));
+  }
+
+  .schedule-recitation .schedule-label,
+  .schedule-review .schedule-label {
+    color: var(--global-theme-color);
+  }
+
+  .schedule-break {
+    background: var(--global-code-bg-color);
+  }
+
+  tr:target {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: -2px;
+  }
+}
+
+@media (max-width: 640px) {
+  .course-logistics {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+
+    dd {
+      margin-bottom: 0.65rem;
+    }
+  }
+
+  .course-schedule {
+    display: block;
+
+    caption,
+    tbody {
+      display: block;
+    }
+
+    thead {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+    }
+
+    tr {
+      display: grid;
+      grid-template-columns: 3.75rem minmax(0, 1fr);
+      padding: 1rem 0.5rem;
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+
+    th,
+    td {
+      display: block;
+      border: 0;
+      padding: 0;
+    }
+
+    .schedule-week,
+    .schedule-date,
+    .schedule-topic,
+    .schedule-materials {
+      width: auto;
+    }
+
+    .schedule-week {
+      grid-column: 1;
+      grid-row: 1;
+      font-size: 0.875rem;
+    }
+
+    .schedule-week-prefix {
+      display: block;
+    }
+
+    .schedule-date,
+    .schedule-topic,
+    .schedule-materials {
+      grid-column: 2;
+    }
+
+    .schedule-topic {
+      margin-top: 0.75rem;
+    }
+
+    .schedule-materials {
+      margin-top: 0.5rem;
+    }
+
+    .schedule-reading {
+      display: inline;
+
+      + .schedule-detail {
+        display: inline;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}
+
 @media (max-width: 575.98px) {
   body {
     font-size: 1rem;
