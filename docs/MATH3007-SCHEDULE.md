@@ -61,3 +61,8 @@ with the site's existing typography and mobile layout.
 The separate navigation controls were also informed by
 [Stanford CS231n](https://cs231n.stanford.edu/), and the pairing of problem sets
 and solutions by [Harvard Stat 110](https://stat110.hsites.harvard.edu/strategic-practice-problems).
+
+The site's `_plugins/local_stylesheet_cache.rb` adds the local `main.scss` hash
+to the theme's stylesheet URL. The pinned theme versions its own Sass partials
+but omits the local override; this keeps returning visitors from retaining an
+older course layout after a deployment.
